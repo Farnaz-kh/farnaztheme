@@ -1,0 +1,19 @@
+.scoreTwoColor {
+    text-align: center;
+    background: linear-gradient( $white, 51%, $gray-800 51%);
+    border: 2px solid $gray-800;
+    border-radius: 160px;
+    font-size: 20px;
+    height: 300px;
+    width: 300px;
+    color: $black;
+    margin-bottom: 100px;
+}
+
+.textTwoColor {
+    font-size: 15px;
+}
+
+.container-circle {
+    max-width: 40%;
+}

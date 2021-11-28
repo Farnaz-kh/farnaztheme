@@ -1,0 +1,117 @@
+$gray-800: #343a40;
+$white: #fff;
+$blue: #007bff !default;
+$indigo: #6610f2 !default;
+$purple: #6f42c1 !default;
+$pink: #e83e8c !default;
+$red: #dc3545 !default;
+$orange: #fd7e14 !default;
+$yellow: #ffc107 !default;
+$green: #28a745 !default;
+$teal: #20c997 !default;
+$cyan: #17a2b8 !default;
+$gray-100: #f8f9fa !default;
+$gray-200: #e9ecef !default;
+$gray-300: #dee2e6 !default;
+$gray-400: #ced4da !default;
+$gray-500: #adb5bd !default;
+$gray-600: #6c757d !default;
+$gray-700: #495057 !default;
+$gray-800: #343a40 !default;
+$gray-900: #212529 !default;
+$black: #000 !default;
+$font-size-lg: 30px;
+$font-size-md: 30px;
+$font-size-ms: 10px;
+@mixin Text($TextColor: $gray-800) {
+    text-align: center;
+    margin-left: 300px;
+    margin-right: 300px;
+    color: $TextColor;
+}
+
+@mixin mainTextStyle {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    text-align: center;
+    margin-left: 300px;
+    margin-right: 300px;
+    color: $gray-800;
+}
+
+@mixin Button() {
+    text-align: center;
+    button {
+        background-color: $gray-800;
+        border: none;
+        color: white;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        width: 220px;
+        border-radius: 10px;
+        &:after {
+            content: ' \007C \22B3';
+        }
+    }
+}
+
+@mixin image_Middle {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+@mixin circle_Small($backgroundColor) {
+    width: 150px;
+    height: 150px;
+    background: $backgroundColor;
+    border-radius: 50%;
+    color: $white;
+    line-height: 150px;
+    text-align: center;
+}
+
+@mixin circle_Big($backgroundColor) {
+    width: 250px;
+    height: 250px;
+    background: $backgroundColor;
+    border-radius: 50%;
+}
+
+@mixin circle_XS {
+    width: 50px;
+    height: 50px;
+    background: $tgsc_blue;
+    border-radius: 50%;
+}
+
+@mixin nav_Footer {
+    nav {
+        border: 1px solid $gray-100;
+        border-width: 1px 0;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+    }
+    li {
+        display: inline;
+    }
+    a {
+        text-decoration: none;
+        display: inline-block;
+        padding: 10px;
+        color: $gray-800;
+    }
+}
+
+@mixin flexLayout {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

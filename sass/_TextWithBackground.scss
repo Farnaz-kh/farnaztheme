@@ -1,0 +1,15 @@
+.score {
+    text-align: center;
+    background: $gray-800;
+    border-radius: 250px;
+    border: 1px solid $white;
+    height: 210px;
+    width: 210px;
+    color: $white;
+    margin-bottom: 100px;
+}
+
+.text {
+    font-weight: bolder;
+    font-size: 40px;
+}

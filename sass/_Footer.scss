@@ -1,0 +1,55 @@
+.Footer {
+    margin-top: 60px;
+    text-align: center;
+    &_Circle {
+        @include flexLayout;
+        &_1 {
+            margin-right: 30px;
+            @include circle_Small($gray-800);
+        }
+        &_2 {
+            margin-right: 30px;
+            @include circle_Small($gray-800);
+        }
+        &_3 {
+            margin-right: 30px;
+            @include circle_Small($red);
+        }
+    }
+    &_Boarder {
+        height: 200px;
+        width: 100%;
+        background-color: $gray-800;
+        margin-top: 100px;
+    }
+    &_Nav {
+        @include nav_Footer;
+        background-color: $gray-100;
+    }
+    &_Logo {
+        @include flexLayout;
+        color: $red;
+        font-weight: bold;
+    }
+}
+
+.item {
+    border-radius: 100px;
+    height: 150px;
+    width: 150px;
+    color: $white;
+}
+
+// .item_1 {
+//     position: relative;
+//     border-radius: 50%;
+//     &:before {
+//         content: "";
+//         padding-top: 100%;
+//     }
+// }
+.item_1 {
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+}

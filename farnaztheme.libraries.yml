@@ -1,0 +1,27 @@
+global:
+  version: 1.0.x
+  dependencies:
+    - core/drupal.ajax
+    - core/drupal
+    - core/drupalSettings
+    - core/jquery.once
+  css:
+    theme:
+      build/libraries/global/global.css: { preprocess: false }
+global-css:
+  version: 1.0
+  css:
+    theme:
+      css/bootstrap.min.css: {}
+      css/dest/main/main.css: {}
+      
+      
+global-js:
+  js:
+    js/bootstrap.bundle.min.js: {}
+    js/jquery-3.3.1.min.js: {}
+    js/script.js: {}
+    js/all.js: {}
+   
+
+   

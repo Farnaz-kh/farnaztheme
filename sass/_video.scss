@@ -1,0 +1,20 @@
+.play-btn {
+    width: 50px;
+    position: relative;
+    top: -50%;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.video-text {
+    position: relative;
+    top: -45%;
+}
+
+.col-md-12 {
+    &:hover {
+        .play-btn {
+            opacity: 1;
+        }
+    }
+}
